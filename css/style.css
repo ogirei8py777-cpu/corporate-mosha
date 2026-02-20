@@ -51,7 +51,7 @@ body {
 }
 
 .hero{
-    background:#333;
+    background:linear-gradient(135deg,#333,#555);
     color:white;
     padding:180px 0;
     text-align:center;
@@ -132,6 +132,30 @@ section{
     margin-bottom:20px;
 }
 
+.works{
+    padding:80px 0;
+}
+
+.works-container{
+    display:flex;
+    gap:30px;
+}
+
+.works-box{
+    flex:1;
+    padding:30px;
+    background:#fafafa;
+    border:1px solid #eee;
+}
+
+.footer{
+    background: #222;
+    color:white;
+    text-align:center;
+    padding:40px 0;
+    font-size:14px;
+}
+
 @media (max-width: 768px){
 
   .services .inner{
@@ -156,4 +180,9 @@ section{
   .nav{
     margin-top:15px;
   }
+
+ .works-container{
+    flex-direction: column;
+ }
+
 }
