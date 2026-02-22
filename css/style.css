@@ -168,9 +168,14 @@ section{
     gap:30px;
 }
 
+.works{
+    text-align: center;
+    padding:80px 0;
+}
+
 .works-box{
     flex:1;
-    padding:30px 50px;
+    padding:30px;
     background:#fafafa;
     border:1px solid #eee;
 }
