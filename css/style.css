@@ -168,9 +168,10 @@ section{
     gap:30px;
 }
 
-.works{
+.works .inner{
     text-align: center;
-    padding:80px 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .works-box{
