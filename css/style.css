@@ -164,8 +164,10 @@ section{
 
 .works-container{
     display:flex;
-    text-align: center;
+    justify-content: center;
     gap:30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .works .inner{
@@ -174,11 +176,18 @@ section{
     margin: 0 auto;
 }
 
-.works-box{
-    flex:1;
+.work-box{
+    background-color: #ffffff;
     padding:30px;
-    background:#fafafa;
-    border:1px solid #eee;
+    width:300px;
+    border-radius:10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    text-align: center;
+    transition:0.3s;
+}
+
+.work-box:hover{
+    transform: translateY(-8px);
 }
 
 .footer{
