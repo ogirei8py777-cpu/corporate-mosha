@@ -69,10 +69,16 @@ body {
 }
 
 .hero{
-    background:linear-gradient(135deg,#333,#555);
-    color:white;
+    background:linear-gradient(135deg, #1f2937,#111827);
+    color:#ffffff;
     padding: 120px 20px;
-    text-align:center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 20px;
 }
 
 .hero h2{
