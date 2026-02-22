@@ -226,15 +226,14 @@ section{
 }
 
 .flow-container{
-    display:flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-top: 40px;
 }
 
-.flex-box{
+.flow-box{
     background:#ffffff;
-    width:220px;
     padding:25px;
     border-radius:10px;
     text-align: center;
@@ -269,5 +268,9 @@ section{
  .works-container{
     flex-direction: column;
  }
+
+ .flow-container{
+     grid-template-columns: 1fr;
+ }    
 
 }
