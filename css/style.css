@@ -25,7 +25,7 @@ body {
 }
 
 .header .nav a:hover{
-    color:blue;
+    color:#2563eb;
 }
 
 .about{
@@ -44,6 +44,24 @@ body {
     line-height:1.8;
 }
 
+.cta-btn{
+    background-color: #2563eb;
+    color:#ffffff;
+    padding: 16px 42px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.cpa-btn:hover{
+    background-color: #1e4ed8;
+    transform:translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
 .inner{
   width: 90%;
   max-width: 1000px;
@@ -53,7 +71,7 @@ body {
 .hero{
     background:linear-gradient(135deg,#333,#555);
     color:white;
-    padding:180px 0;
+    padding: 120px 20px;
     text-align:center;
 }
 
@@ -70,7 +88,7 @@ body {
     display:inline-block;
     margin-top:20px;
     padding:10px 20px;
-    background:blue;
+    background:#2563eb;
     color:white;
     text-decoration:none;
     border-radius:5px;
@@ -79,7 +97,7 @@ body {
 }
 
 .btn:hover{
-    background:#003cff;
+    background:#2563eb;
     transform:translateY(-3px);
 }
 
