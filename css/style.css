@@ -164,7 +164,7 @@ section{
 
 .works-container{
     display:flex;
-    justify-content: center;
+    text-align: center;
     gap:30px;
 }
 
